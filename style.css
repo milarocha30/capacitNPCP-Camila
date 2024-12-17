@@ -16,3 +16,27 @@ body {
       align-items: center;
       background: linear-gradient( #faf6f3cc, #f6ebdf, #f6eeee );
   }
+
+  .Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  .img-logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  h3 {
+    font-family: "Josefin Sans";
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+  }
