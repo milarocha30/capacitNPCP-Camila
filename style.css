@@ -272,3 +272,95 @@ body {
 button:hover {
   opacity: 1;
 } 
+
+/*Mobile First*/
+@media(max-width: 320px){
+
+    /*Logo*/
+    .img-logo{
+      width: 100px;
+      height: 100px;
+    }
+  
+    /*Boas vindas*/
+    h3{
+      margin-top: 10px;
+      font-size: medium;
+      margin-right: 20px;
+    }
+    
+    
+    .nav-container{
+      height: 40px;
+    }
+  
+    .nav-container-maior{
+      display: flex;
+    }
+    .nav-button{
+      flex-direction: row;
+      width: 100px;
+      height: 40px;
+      font-size: 60%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  
+    .sobre-container{
+      flex-direction: row;
+      width: 100%;
+    
+      
+    }
+    .sobre{
+      display: flex;
+      width: 100%;
+      height: 350px;
+    }
+  
+    .book-icon{
+      display: none;
+    }
+  
+    .sobre-texto{
+      display: flex;
+      margin: 10px;
+    }
+  
+    h4{
+      font-size: medium;
+      display: flex;
+     
+    }
+  
+    .carousel-slide{
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+  
+    .cards-container{
+      flex-direction: column;
+      
+    }
+  
+   .d-block{
+      height: 240px;
+      width: 320px;
+   }
+  
+   #modal{
+    height: 540px;
+   }
+  
+   .modal-header{
+    font-size: smaller;
+    flex-direction: column;
+   }
+   .modal-body p{
+    margin: 0;
+    font-size: small;
+    
+   }
+  }
