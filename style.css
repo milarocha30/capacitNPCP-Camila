@@ -364,3 +364,29 @@ button:hover {
     
    }
   }
+
+  #footer-conteudo{
+
+    background-color: #816553;
+    color: #faf6f3;
+    padding: 40px 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+  h4{
+    color: floralwhite;
+    font-family: "Kiwi Maru";
+  }
+  }
+  
+  #instagram{
+    color: floralwhite;
+  }
+  
+  #whatsapp{
+    color:floralwhite;
+  }
+  #email{
+    color: floralwhite;
+  }
