@@ -1,3 +1,7 @@
+
+
+HEAD
+    
 const openModalButton = document.querySelector("#open-modal");
 const closeModalButton = document.querySelector("#close-modal");
 const modal = document.querySelector("#modal");
@@ -12,5 +16,4 @@ const toggleModal = () => {
   el.addEventListener("click", () => toggleModal());
 });
 
-
-    
+develop

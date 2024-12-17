@@ -1,11 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+   
+    <title>Landing Page</title>
 </head>
 <body>
+    <!--Parte visível do código-->
+    <header>
+        <div class="Logo">
+          <img src="img/Logo.jpeg" class= "img-logo" alt="Logo" />
+          <h3>Bem-vindo(a) à comunidade virtual dos leitores!</h3>
+        </div>
+    </header>
+
+      
+    <main>
+        <nav>
+          
+          <div class="nav-container">
+            <a href="#" class="nav-button">Início</a> <!--a tag <a href="#"> permite que seja colocado um link para direcionar a escrita à algum lugar, funcionando como um botão -->
+          </div>
+
+          <div class="nav-container">
+              <a href="#" class="nav-button">Saiba mais</a>
+          </div>
+
+          <div class="nav-container-maior">
+              <a href="#" class="nav-button" style="background: linear-gradient(180deg, #F6F5CB, #EBCF72, #C08731); color: black; " ><b>SEJA MEMBRO!</b> </a>
+          </div>
+
+        </nav>
+
+        <div class="sobre">
+
+            <div class="sobre-texto">
+                <h3 class=""><b>Uma experiência de leitura para conectar universos</b></h3>
+                <h4 class="">Junte-se ao clube do livro virtual que leva você a uma jornada literária única! Um espaço dedicado para quem ama explorar histórias, debater ideias e conhecer novos mundos. Aqui, você encontra uma comunidade de leitores apaixonados, livros cuidadosamente selecionados, e discussões enriquecedoras para expandir horizontes e mergulhar em universos distintos, sem sair de casa.</h4>
+            </div>   
+
+            <img src="./img/Livroimg.jpeg" class="book-icon" alt="slider1"/>
+       
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="max-width:800px; margin-top: 50px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/slide1.png"
+                        alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/2.png"
+                        alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/3.png"
+                        alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <div class="cards-container">
+
+            <!-- Plano Básico -->
+            <div class="card">
+                <h3>Plano Básico</h3>
+                <div class="price">R$19,90/mês</div>
+                <p class="description">Para leitores ocasionais.</p>
+                <ul class="benefits">
+                    <li>1 livro por mês</li>
+                    <li>Acesso ao clube de leitura</li>
+                    <li>Descontos em eventos</li>
+                </ul>
+                 
+                <button class="subscribe-button" id="open-modal">Assinar Agora</button> <!--Abrir benefícios-->
+          
+                
+                <div id="fade" class="hide"></div>
+                <div id="modal" class="hide">
+                  <div class="modal-header">
+                    <h2>PLANO BÁSICO</h2>
+                    <h3 class="preco">R$ 19,90/Mês</h3>
+                    <button id="close-modal">Fechar</button>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>1 Livro por Mês:</b> Um livro escolhido com curadoria para inspirar e envolver o leitor.</p>
+                    <p><b>Acesso ao Clube de Leitura:</b> Participação nas discussões semanais, fóruns e eventos online de leitura.</p>
+                    <p><b>Descontos em Eventos:</b> Benefícios em eventos literários ou encontros de leitura do clube.</p>
+                    <p><b>Recomendações Personalizadas:</b>  Sugestões de leitura com base em preferências pessoais.</p>
+                  </div>
+                </div>
+            </div>
+            
+            <!-- Plano Padrão (destaque) -->
+            <div class="card highlight">
+                <h3>Plano Padrão</h3>
+                <div class="price">R$39,90/mês</div>
+                <p class="description">Para amantes de livros.</p>
+                <ul class="benefits">
+                    <li>3 livros por mês</li>
+                    <li>Acesso ao clube de leitura</li>
+                    <li>Descontos em eventos</li>
+                    <li>Participação em sorteios mensais</li>
+                </ul>
+          
+                <button class="subscribe-button" id="open-modal">Assinar Agora</button> <!--Abrir benefícios-->
+          
+            </div>
+            
+            <!-- Plano Premium -->
+            <div class="card">
+                <h3>Plano Premium</h3>
+                <div class="price">R$59,90/mês</div>
+                <p class="description">Para leitores vorazes.</p>
+                <ul class="benefits">
+                    <li>5 livros por mês</li>
+                    <li>Acesso ao clube de leitura</li>
+                    <li>Descontos em eventos</li>
+                    <li>Participação em sorteios exclusivos</li>
+                    <li>Entrega com prioridade</li>
+                </ul>
+                <button class="subscribe-button" id="open-modal">Assinar Agora</button> <!--Abrir benefícios-->
+            </div>
+        </div>
+          
+        
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
     
 </body>
+
+<footer>
+
+    <div id="footer-conteudo">
+        <div id="footer-contato">
+            <img src="./img/Logo.jpeg" class="img-logo">
+            <h4 class="contatos-texto">Entre em contato conosco!</h4>
+      
+  
+            <div id="footer-social">
+                <a href="#" class="footer-link" id="email">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="#" class="footer-link" id="instagram"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/71999542005" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+  
+        </div>
+    </div>
+    
+</footer>
+
 </html>
