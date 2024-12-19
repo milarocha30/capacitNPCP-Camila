@@ -1,5 +1,4 @@
 # Projeto: Books and worlds - Landing Page
-
 Books and worlds é um site destinado a um clube do livro virtual para pessoas apaixonadas por leitura e que possuem o desejo de descobrir novas histórias e autores. A landing page oferece informações sobre o clube, benefícios dos planos de assinatura e uma plataforma para os visitantes se inscreverem e se conectarem com o mundo literário. 
 
 ## Visão geral:
@@ -19,6 +18,18 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 * CSS 
 * JavaScript
 * Bootstrap
+
+## Configurações e uso:
+
+### Requisitos:
+
+* Extensão Live Server
+* Um navegador moderno
+
+
+
+
+
 
 
 
