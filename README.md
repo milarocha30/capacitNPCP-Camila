@@ -73,6 +73,12 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 
 └── README.md                
 
+## Testes:
+
+1. Execute os testes:
+    
+    npm test
+
 
 
 
