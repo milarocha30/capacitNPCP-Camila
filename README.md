@@ -45,6 +45,34 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 
 2. Abra o navegador e acesse: http://127.0.0.1:5500/
 
+## Estrutura do projeto:
+
+├── index.html               
+├── style.css           
+├── js/
+
+│   └── script.js             
+
+├── img/                      
+│   ├── Logo.jpeg           # Logotipo do clube
+
+│   ├── slide1.png          # Imagens do carrossel
+
+│   ├── 2.png           
+│   ├── 3.png   
+│   ├── PlanoB.png          # Imagem do card plano básico
+
+│   ├── PlanoPA.png         # Imagem do card plano padrão
+
+│   ├── PlanoPR.png         # Imagem do card plano premium
+
+│   └── Livroimg.jpeg       # Imagem da área de descrição    
+├── .vscode
+
+│   └── settings.json       #Live server 
+
+└── README.md                
+
 
 
 
