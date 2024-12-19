@@ -93,10 +93,16 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 
 4. Envie para a branch principal:
 
-git push origin 'minha future'
+    git push origin 'minha future'
 
 5. Abra um pull request.
 
+## Contato:
 
+Se tiver alguma dúvida, por favor entrar em contato:
+
+* Nome: Camila Uzêda da Silva Rocha 
+* Email: camila.rocha.cimatecjr@gmail.com
+* Github: https://github.com/milarocha30
 
 
