@@ -14,6 +14,11 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 * Responsividade: Adaptada para dispositivos móveis e desktop.
 
 ### Tecnologias usadas:
-Html, CSS e JavaScript.
+
+* Html
+* CSS 
+* JavaScript
+* Bootstrap
+
 
 
