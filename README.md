@@ -80,6 +80,23 @@ Books and Worlds promove uma experiência única para leitores, com três planos
     npm test
 
 
+## Contribuições:
+
+1. Fork esse repositório.
+2. Crie uma branch para a sua feature:
+
+    git checkout -b minha-feature
+
+3. Commit suas modificações:
+
+    git commit -m "feat: adicionado 'minha feature'"
+
+4. Envie para a branch principal:
+
+git push origin 'minha future'
+
+5. Abra um pull request.
+
 
 
 
