@@ -27,7 +27,23 @@ Books and Worlds promove uma experiência única para leitores, com três planos
 * Um navegador moderno
 
 
+### Insalações 
 
+1. Clone o repositório: 
+
+    git clone C:\Users\jroch\OneDrive\Desktop\Documentos Cimatec\Programação\CimatecJR\Capacitação
+
+2. Navague até o diretório do projeto:
+    
+    cd capacitNPCP-Camila
+
+### Executando o projeto:
+
+1. Inicie o servidor de desenvolvimento:
+
+    npm start
+
+2. Abra o navegador e acesse: http://127.0.0.1:5500/
 
 
 
