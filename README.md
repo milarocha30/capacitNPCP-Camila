@@ -94,7 +94,7 @@ capacitNPCP-Camila/
 
 4. Envie para a branch principal:
 
-    git push origin 'minha future'
+    git push origin 'minha feature'
 
 5. Abra um pull request.
 
